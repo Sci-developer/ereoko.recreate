@@ -76,7 +76,7 @@ body{
 
     
     .toggle-button, .bar{
-        display: flex;margin-left: 90%;bottom: 185%;position: relative;
+        display: flex;margin-left: 80%;bottom: 185%;position: relative;
        
     }
 .navbar-links{
@@ -188,7 +188,7 @@ h4{
         text-decoration: none;color: white;
         background-color:rgb(32, 170, 32);
         padding: 1% 2%;
-        border-radius: 5px;
+        border-radius: 5px;font-size: 130%;
             
 }
 .about{
@@ -208,7 +208,8 @@ text-align: center;
 }
 
 .hay-pic{
-    border-radius: 50%;width: 320px;height: 300px;
+    border-radius: 50%;width: 300px;height: 300px;
+    padding: 2% 0 3% 0;
 }
 .circle{
     padding: 2% 5%;
@@ -259,7 +260,7 @@ color: green;
   
 }
 .ulb{
-    padding: 0 0 0 2%;
+    padding: 0  4%;
 }
 
 @media(max-width:1040px){
@@ -376,9 +377,9 @@ color: green;
 
 
 .rowlings{
-    padding: 3% 5%;color: white;
+    padding: 3% 5%  ;color: white;
         min-height: 100%;
-     background-image: url(forest2.jpg);
+     background-image: url(forest3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -401,14 +402,14 @@ color: green;
  padding: 5% 0  0 0 ;
 }
 .aaa{
-    display: block;line-height: 1.5;text-decoration: none;color: rgb(226, 229, 231);font-size: 150%;
+    display: block;line-height: 1.5;text-decoration: none;color: rgb(226, 229, 231);font-size: 110%;
 }
 .aaa:hover{
     color: white;
 }
 
 .aaaa{
-    display: block;line-height: 1.5;text-decoration: none;color: rgb(226, 229, 231);font-size: 150%;
+    display: block;line-height: 1.5;text-decoration: none;color: rgb(226, 229, 231);font-size: 110%;
 }
 .aaaa:hover{
     color: white;
@@ -416,14 +417,19 @@ color: green;
 .faqs,.guide{
     display: inline-block;right: 4%;position: relative;line-height: 2;
 }
+.quick-links{
+    right: 4%;position: relative;
+}
+
 .address,.addressa,.addressb,.addressc,.des,.tag{
-    font-size: 120%;
+    font-size: 110%;
 }
 
 
 
  footer{
-     padding: 2% 7% 0;align-items: center;
+     padding: 2% 6% 2%;align-items: center;
+     background-color: black;color: white;
  }
 
 
@@ -437,7 +443,7 @@ color: green;
 .message-us{
     text-decoration: none;color: white;background-color: rgb(61, 189, 61);padding: .5rem 1rem;text-align: center;
 }.messageus{
-   padding: 3%  2% 3%;
+   padding: 3%  2% 12%;
 }
 .message-us:hover{
     color: white;
